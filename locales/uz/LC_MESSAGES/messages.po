@@ -1,0 +1,208 @@
+# Uzbek translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-20 19:08+0500\n"
+"PO-Revision-Date: 2024-05-20 19:08+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uz\n"
+"Language-Team: uz <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: bot/detail_text.py:11
+msgid "Nomi"
+msgstr ""
+
+#: bot/detail_text.py:12
+msgid "Avtor"
+msgstr ""
+
+#: bot/detail_text.py:13
+msgid "Bet"
+msgstr ""
+
+#: bot/detail_text.py:14
+msgid "Muqova"
+msgstr ""
+
+#: bot/detail_text.py:15
+msgid "Malumot"
+msgstr ""
+
+#: bot/detail_text.py:16
+msgid "Narxi"
+msgstr ""
+
+#: bot/buttuns/inline.py:20
+msgid "❌ Savatni tozalash"
+msgstr ""
+
+#: bot/buttuns/inline.py:21
+msgid "✅ Buyurtmani tasdiqlash"
+msgstr ""
+
+#: bot/buttuns/inline.py:22 bot/buttuns/inline.py:63
+msgid "🔙Back🔙"
+msgstr ""
+
+#: bot/buttuns/inline.py:42
+msgid "🛒 Savat "
+msgstr ""
+
+#: bot/buttuns/inline.py:43
+msgid "🔍Search ..."
+msgstr ""
+
+#: bot/buttuns/inline.py:49
+msgid "Buyurtma beraszmi?"
+msgstr ""
+
+#: bot/buttuns/inline.py:50
+msgid "✅Ha"
+msgstr ""
+
+#: bot/buttuns/inline.py:51
+msgid "❌ Yo'q"
+msgstr ""
+
+#: bot/buttuns/inline.py:65
+msgid "🛒 Savat"
+msgstr ""
+
+#: bot/buttuns/inline.py:96
+msgid "⬅️Ortga"
+msgstr ""
+
+#: bot/buttuns/inline.py:97
+msgid "🗑 Savatga qo'shish"
+msgstr ""
+
+#: bot/buttuns/inline.py:114 bot/buttuns/inline.py:121
+msgid "Kanal "
+msgstr ""
+
+#: bot/buttuns/inline.py:115
+msgid "Tasdiqlash"
+msgstr ""
+
+#: bot/buttuns/simple.py:8
+msgid "📚 Kitoblar"
+msgstr ""
+
+#: bot/buttuns/simple.py:9
+msgid "📃 Mening buyurtmalarim"
+msgstr ""
+
+#: bot/buttuns/simple.py:10
+msgid "🔵 Biz ijtimoiy tarmoqlarda"
+msgstr ""
+
+#: bot/buttuns/simple.py:11
+msgid "📞 Biz bilan bog'lanish"
+msgstr ""
+
+#: bot/buttuns/simple.py:21
+msgid "Contact jonatish"
+msgstr ""
+
+#: bot/handlers/language.py:12
+msgid "Til tanlandi"
+msgstr ""
+
+#: bot/handlers/language.py:13
+msgid "Qayta /start bosing til ozgardi"
+msgstr ""
+
+#: bot/handlers/private/book_handler.py:167
+#: bot/handlers/private/categories_handler.py:38
+msgid "Books"
+msgstr ""
+
+#: bot/handlers/private/categories_handler.py:47
+#: bot/handlers/private/order_count.py:38
+#: bot/handlers/private/order_count.py:55
+msgid "Category"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:27
+msgid "Eng kamida 1 ta kitob buyurtma qilishingiz mumkin!😁"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:34
+msgid "Savatga qoshildi"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:54
+msgid "Tozalandi"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:62
+msgid "Telefon raqmni jonating (Pastgi tugmani bosing)"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:74
+msgid "Pastgi tugmani bosmadiz"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:86
+msgid "✅ Hurmatli mijoz! Buyurtmangiz uchun tashakkur."
+msgstr ""
+
+#: bot/handlers/private/order_count.py:95
+msgid "Tolovingiz uchun rahmat"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:96
+msgid "Bosh Menyu"
+msgstr ""
+
+#: bot/handlers/private/order_count.py:106
+msgid "Hali beri buyurtma qilmadiz"
+msgstr ""
+
+#: bot/handlers/private/start.py:20 bot/handlers/private/start.py:26
+#: bot/handlers/private/start.py:31
+msgid "Til tanlang"
+msgstr ""
+
+#: bot/handlers/private/start.py:27 bot/handlers/private/start.py:32
+msgid "Hello, "
+msgstr ""
+
+#: bot/handlers/private/start.py:41
+msgid "tomonidan tayyorlandi"
+msgstr ""
+
+#: bot/handlers/private/start.py:47
+msgid "Biz ijtimoiy tarmoqlarda"
+msgstr ""
+
+#: db/utils.py:16
+msgid "🛒 Savat \n"
+msgstr ""
+
+#: db/utils.py:17
+msgid "💸 Jami"
+msgstr ""
+
+#: db/utils.py:31
+msgid "Buyurtma raqami"
+msgstr ""
+
+#: db/utils.py:32
+msgid "Buyurtma qilingan sana"
+msgstr ""
+
+#: db/utils.py:33 db/utils.py:34
+msgid "Buyurtma holati"
+msgstr ""
+
