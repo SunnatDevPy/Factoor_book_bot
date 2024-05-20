@@ -45,8 +45,7 @@ async def category_update(message: Message, state: FSMContext):
     data = await state.get_data()
     await Categorie.update(int(data['category_id']), title=message.text)
     await message.answer(_('Category'),
-                         reply_markup=await inl_categories(
-                             basket=orders.count if orders else False))
+                         reply_markup=await inl_categories(basket=count_orders(orders)))
     await state.clear()
 
 
