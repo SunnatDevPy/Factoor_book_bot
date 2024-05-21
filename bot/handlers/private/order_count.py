@@ -88,12 +88,16 @@ async def basket_yes(call: CallbackQuery, bot: Bot, state: FSMContext):
     await call.message.answer_invoice('Books', str(text[0]), f'History_id', Config.bot.PAYMENT, 'UZS', price)
 
 
-@order_router.message(lambda message: message.successful_payment)
+@order_router.message(lambda message: bool(message.successful_payment))
 async def pyment_connect(message: Message, bot: Bot):
     if message.successful_payment:
         await History.update(1, confirm=True)
         await message.answer(_('Tolovingiz uchun rahmat'))
         await message.answer(_('Bosh Menyu'), reply_markup=menu_button())
+
+@order_router.pre_checkout_query()
+async def pre_checkout_query(pre_checkout_query: PreCheckoutQuery):
+    await pre_checkout_query.answer(True)
 
 
 @order_router.message(F.text == __('📃 Mening buyurtmalarim'))
